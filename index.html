@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    <title>NarinClub</title>
+    <link href="https://cdn.bootcss.com/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/media.css">
+</head>
+
+<body>
+
+    <nav id="menu-nav" class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse"
+                    data-target=".navbar-collapse">
+                    <span class="sr-only">切换导航</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <img src="./img/logo-lg.png">
+                    NarinClub
+                </a>
+            </div>
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            队员 <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#members-tab" data-tab="xdd">Narin.XDD</a></li>
+                            <li><a href="#members-tab" data-tab="yjyg">Narin.YJYG</a></li>
+                            <li><a href="#members-tab" data-tab="bgod">Narin.Bgod</a></li>
+                            <li><a href="#members-tab" data-tab="an1">Narin.An1</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#match">战绩</a></li>
+                    <li><a href="#" data-toggle="modal" data-target="#about">关于</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="myCarousel" class="carousel slide">
+        <!-- 轮播（Carousel）指标 -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+        </ol>
+        <!-- 轮播（Carousel）项目 -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="./img/bg1.jpg" alt="First slide">
+                <div class="carousel-caption">
+                    <h3>For An Aborted Dream —— NarinClub</h3>
+                    <a class="btn btn-primary" target="_blank" href="https://weibo.com/u/6245174985">官方首页</a>
+                </div>
+            </div>
+            <div class="item">
+                <img src="./img/cartoon@ttrrszm1.jpg" alt="Second slide">
+            </div>
+        </div>
+        <!-- 轮播（Carousel）导航 -->
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <div class="summary container">
+        <div class="row">
+            <div class="col-md-3 card">
+                <img src="./img/xdd.jpg" alt="XDD">
+                <h4 class="name">Narin.XDD</h4>
+            </div>
+            <div class="col-md-3 card">
+                <img src="./img/yjyg.jpg" alt="YJYG">
+                <h4 class="name">Narin.YJYG</h4>
+            </div>
+            <div class="col-md-3 card">
+                <img src="./img/Bgod.jpg" alt="Bgod">
+                <h4 class="name">Narin.Bgod</h4>
+            </div>
+            <div class="col-md-3 card">
+                <img src="./img/An1.jpg" alt="An1">
+                <h4 class="name">Narin.An1</h4>
+            </div>
+        </div>
+        <hr class="divider">
+    </div>
+    <div class="members container">
+        <ul id="members-tab" role="tablist" class="nav nav-tabs">
+            <li class="active"><a href="#xdd" role="tab" data-toggle="tab">XDD</a></li>
+            <li><a href="#yjyg" role="tab" data-toggle="tab">YJYG</a></li>
+            <li><a href="#bgod" role="tab" data-toggle="tab">Bgod</a></li>
+            <li><a href="#an1" role="tab" data-toggle="tab">An1</a></li>
+        </ul>
+        <div class="tab-content">
+            <div class="tab-pane fade in active" id="xdd">
+                <div class="row member">
+                    <div class="col-md-7 info">
+                        <div class="name">Narin.XDD <span class="text-muted">左梓轩</span></div>
+                        <div class="age">年龄：17岁</div>
+                        <div class="position">位置：狙击手兼队长</div>
+                        <div class="desc">
+                            介绍：曾经效力于皇族俱乐部的守望先锋职业选手，FPS电子竞技的少年天才，他的游戏像是一场表演，秀的人眼花缭乱，是绝地求生项目的一颗新星。Narin电子竞技俱乐部由他一手创建。
+                        </div>
+                        <a class="btn btn-default" target="_blank" href="https://weibo.com/u/5966662283">微博</a>
+                    </div>
+                    <div class="col-md-5 img">
+                        <img src="./img/xdd-logo.jpg" alt="XDD" class="img-responsive">
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="yjyg">
+                <div class="row member">
+                    <div class="col-md-5 img">
+                        <img src="./img/yjyg-logo.jpg" alt="YJYG" class="img-responsive">
+                    </div>
+                    <div class="col-md-7 info">
+                        <div class="name">Narin.YJYG <span class="text-muted">毕啸成</span></div>
+                        <div class="age">年龄：22岁</div>
+                        <div class="position">位置：突击手</div>
+                        <div class="desc">
+                            介绍：一个枪很刚的突击手，2018年DSL斗鱼超级联赛中单场十杀技惊四座，是一位非常靠谱的战士。</div>
+                        <a class="btn btn-default" target="_blank" href="https://weibo.com/u/6452212430">微博</a>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="bgod">
+                <div class="row member">
+                    <div class="col-md-7 info">
+                        <div class="name">Narin.Bgod <span class="text-muted">孙科彤</span></div>
+                        <div class="age">年龄：19岁</div>
+                        <div class="position">位置：指挥</div>
+                        <div class="desc">
+                            介绍：一个外表粗犷、内心细腻的小伙子。热衷于复盘推敲赛事思考策略，比赛中的决策证明，他的指挥是可靠的。</div>
+                        <a class="btn btn-default" target="_blank" href="https://weibo.com/u/2476403647">微博</a>
+                    </div>
+                    <div class="col-md-5 img">
+                        <img src="./img/Bgod-logo.jpg" alt="Bgod" class="img-responsive">
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="an1">
+                <div class="row member">
+                    <div class="col-md-5 img">
+                        <img src="./img/An1-logo.jpg" alt="An1" class="img-responsive">
+                    </div>
+                    <div class="col-md-7 info">
+                        <div class="name">Narin.An1 <span class="text-muted">周逸潇</span></div>
+                        <div class="age">年龄：22岁</div>
+                        <div class="position">位置：自由人</div>
+                        <div class="desc">
+                            介绍：团队中我的担当是什么？哪里需要我就在哪里。不局限于某一个角色，全能型选手是我的归宿。</div>
+                        <a class="btn btn-default" target="_blank" href="https://weibo.com/u/2763853157">微博</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="divider">
+    </div>
+    <div class="match container" id="match">
+        <div class="title">唯一一次满员赛事，做得很好。</div>
+        <div class="sub-title text-muted">2018春季DSL斗鱼超级联赛 首日积分第一</div>
+        <div class="row final">
+            <img src="./img/day1.jpg">
+        </div>
+        <div class="row session">
+            <div class="col-md-3 img">
+                <img src="./img/1.jpg">
+            </div>
+            <div class="col-md-3 img">
+                <img src="./img/2.jpg">
+            </div>
+            <div class="col-md-3 img">
+                <img src="./img/3.jpg">
+            </div>
+            <div class="col-md-3 img">
+                <img src="./img/4.jpg">
+            </div>
+        </div>
+        <hr class="divider">
+    </div>
+    <div class="modal fade" id="about" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">关于Narin</h4>
+                </div>
+                <div class="modal-body">
+                        Narin于2018年3月4日正式成立，3月17日分崩离析。<br>或许是史上最短命的电竞俱乐部，但也是一个少年勇敢的尝试。<br>谨以此站纪念腥风血雨中建立和解散的Narin电子竞技俱乐部。
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">OK</button>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal -->
+    </div>
+    <footer class="container">
+        <span class="copyright">© 2018 HIKARI</span>
+        <span class="pull-right"><a href="#top">回到顶部</a></span>
+    </footer>
+
+    <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://cdn.bootcss.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>

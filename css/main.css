@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Palatino Linotype','Courier New', Courier, monospace;
+}
+
+body {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+a {
+    color: #2e6570;
+    font-family: inherit;
+}
+
+.navbar .navbar-brand {
+    padding: 0 15px;
+    line-height: 50px;
+}
+
+.navbar .navbar-brand img {
+    height: 40px;
+    display: inline;
+}
+
+.carousel,
+.carousel .item {
+    height: calc(100vh - 50px);
+}
+
+.carousel .item img {
+    min-height: 100%;
+    min-width: 100%;
+    opacity: 0.9;
+}
+
+.carousel .item a {
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 10px 30px;
+    font-size: 1.3em;
+}
+
+.carousel .item a.btn {
+    background: #2e6570;
+    border-color: #2e6570;
+    
+}
+
+.carousel .item h3 {
+    font-size: 40px;
+    font-weight: 500;
+    text-shadow: 5px 5px 5px #000000;
+}
+
+.summary {
+    margin: 40px auto;
+}
+
+.summary .card {
+    text-align: center;
+}
+
+.summary img {
+    width: 150px;
+    border-radius: 100%;
+}
+
+hr.divider {
+    border: 10;
+    margin-top: 50px;
+}
+
+.members .member {
+    margin: 30px auto;
+    font-size: 20px;
+    color: #555;
+}
+
+.members .member .name {
+    font-size: 40px;
+    color: #2e6570;
+}
+
+.members .member .info {
+    margin-top: 30px;
+}
+
+.members .member .info > div {
+    margin-bottom: 10px;
+}
+
+.members .member a {
+    padding: 5px 30px;
+    font-size: inherit;
+}
+
+.members .member a:hover {
+    background: #2e6570;
+    color: white;
+}
+
+.members .member a.btn {
+    border-color: #2e6570;
+}
+
+.members .member .name .text-muted {
+    font-size: 25px;
+}
+
+.members .member img {
+    border-radius: 10px;
+    max-width: 90%;
+    margin: auto;
+}
+
+.match .title {
+    font-size: 30px;
+    color: #2e6570;
+    margin-top: 20px;
+}
+
+.match .sub-title {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.match .final {
+    text-align: center;
+}
+
+.match .final img {
+    width: 66%;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.match .session img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.match .session {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+footer {
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+.modal .btn {
+    border-color: #2e6570;
+    color: #2e6570;
+}
+
+.modal .btn:hover {
+    background: #2e6570;
+    color: white;
+}

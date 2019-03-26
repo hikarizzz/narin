@@ -1,0 +1,54 @@
+@media (max-width: 768px) {
+    .carousel,
+    .carousel .item {
+        height: 250px;
+    }
+
+    .carousel .item a {
+        padding: 5px 20px;
+        font-size: 1em;
+    }
+
+    .carousel .item img {
+        opacity: 0.75;
+    }
+
+    .carousel .item h3 {
+        font-size: 30px;
+    }
+
+    .summary .card {
+        margin-bottom: 20px;
+    }
+
+    .members .tab-content .member {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .members .tab-content .member .info {
+        width: 100%;
+        order: 10
+    }
+
+    .members .tab-content .member .img {
+        width: 100%;
+        order: 1;
+    }
+
+
+    .match .final img {
+        width: 100%;
+        margin: 0;
+    }
+
+    .match .final,
+    .match .session {
+        padding: 10px;
+    }
+
+    .match .session .img {
+        padding: 0;
+        margin-bottom: 5px;
+    }
+}
